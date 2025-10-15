@@ -121,7 +121,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 8b03fa3d1bd6949a0b5c509c167e1bba, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: aef59b4b6c360c945b466d58fa8fdf61, type: 2}
 --- !u!1001 &2867707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9961,6 +9961,7 @@ GameObject:
   - component: {fileID: 1887056096}
   - component: {fileID: 1887056095}
   - component: {fileID: 1887056094}
+  - component: {fileID: 1887056097}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -10042,6 +10043,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 66.971, y: -8.017, z: 4.974}
+--- !u!114 &1887056097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887056091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ddda375d8223404a82c3e14a3dbe14d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle: {fileID: 3740006870615672524, guid: abc6e712fa508a84f8bc60bd88d4ad2a, type: 3}
 --- !u!1 &1888859122
 GameObject:
   m_ObjectHideFlags: 0
@@ -10777,7 +10791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 0ad4da72eb12fe74097348bea3c928d5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 0ad4da72eb12fe74097348bea3c928d5, type: 3}
       propertyPath: m_RootOrder
