@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Crowd.unity
+- path: Assets/Scenes/city Crowd.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
