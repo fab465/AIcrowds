@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DropCylinder.cs" />
+    <Compile Include="Assets\FlockManger.cs" />
     <Compile Include="Assets\AIcontrol.cs" />
+    <Compile Include="Assets\Flock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Street\Resources\Assets\Materials\2sided.shader" />
